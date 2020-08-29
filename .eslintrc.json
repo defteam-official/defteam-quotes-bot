@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-void": "off",
+        "spaced-comment": "off",
+        "curly": "off",
+        "indent": ["error", 4],
+        "no-trailing-spaces": "off",
+        "camelcase": "off",
+        "quotes": "off"
+    }
+}

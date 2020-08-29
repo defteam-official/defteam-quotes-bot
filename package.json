@@ -1,0 +1,35 @@
+{
+  "name": "defteam-quotes-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "eslint": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "ximik753",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-private-methods": "^7.10.4",
+    "@babel/plugin-syntax-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "canvas": "^2.6.1",
+    "chalk": "^4.1.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "vk-io": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
